@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Cursed;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+
+    margin: 0;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B244A;
+    height: 450px;
+    width: 575px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid #9AABD8;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+    margin: 0 auto;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+
+}
+
+#home-count,
+#guest-count {
+
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+    font-family: Cursed;
+    background-color: #080001;
+    margin: 20px 0;
+    padding: 18px 0 0 0;
+
+}
+
+#guest-count-el,
+#home-count-el {
+
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+#score-btn {
+
+    color: #9AABD8;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+
+}
+
+h3 {
+
+    font-size: 40px;
+    margin: 50px 0 0 0;
+
+}
+
+#btn {
+
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9AABD8;
+    font-family: Cursed;
+    height: 45px;
+    width: 45px;
+
+}
+
+#rst-btn {
+
+    background-color: #9AABD8;
+    border: 2px solid #080001;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #080001;
+    font-family: Cursed;
+    height: 45px;
+    width: 155px;
+    margin: 50px;
+
+}
+
+#rst-btn:hover {
+
+    cursor: pointer;
+    background-color: #F94F6D;
+    transition: 0.4s
+}
+
+#btn:hover {
+
+    cursor: pointer;
+    background-color: #588157;
+    transition: 0.4s
+}
